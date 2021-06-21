@@ -1,0 +1,334 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D3D8FCEB-FF0B-4C19-AD28-7699DD87782F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>projectfinal3</RootNamespace>
+    <AssemblyName>projectfinal3</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=8.0.24.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5.Designer.cs">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form6.Designer.cs">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form7.Designer.cs">
+      <DependentUpon>Form7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form8.Designer.cs">
+      <DependentUpon>Form8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form9.Designer.cs">
+      <DependentUpon>Form9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="gun.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gun.Designer.cs">
+      <DependentUpon>gun.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pee.Designer.cs">
+      <DependentUpon>pee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="stepFrom2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stepFrom2.Designer.cs">
+      <DependentUpon>stepFrom2.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5.resx">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6.resx">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form7.resx">
+      <DependentUpon>Form7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form8.resx">
+      <DependentUpon>Form8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form9.resx">
+      <DependentUpon>Form9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gun.resx">
+      <DependentUpon>gun.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pee.resx">
+      <DependentUpon>pee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="stepFrom2.resx">
+      <DependentUpon>stepFrom2.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f0c478e0848748da975ca602ab4909b0-0001.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Presentation5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Presentation7_page-0001.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f0c478e0848748da975ca602ab4909b0-00011.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Remington_Rand_M1911A1_%286825681098%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Remington_Rand_M1911A1_%286825681098%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logoGun.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user-2935527_960_720.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user-2935527_960_7201.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-padlock-icon-design-template-vector-isolated-png-image_711393.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-padlock-icon-design-template-vector-isolated-png-image_711393.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Presentation8_page-0001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0001.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\รู้จักสไปเดอร์แมน-5-เวอร์ชั่น-800x445.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1489969200_Deus Ex Adam Jensen.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\avatar.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel-button-_1_.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout-_1_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Presentation10_page-0001.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1r1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\%281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Presentation51.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\remove.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paper-clip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paper-clip1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inteligencia-artificial-gif-8.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d9gft23-fea5307b-945b-49f2-9212-5b5d0283b27a.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\15641.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mo0H.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\avatar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6218b53ba4e293424664be79c7341390.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\156411.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\558000012623001.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gun.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6218b53ba4e293424664be79c73413901.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\web-button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buttonnnn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buttonnnn1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fill_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\group_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fill_11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lightning-bolt-filled-shape.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\left-arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\left-arrow1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\printer.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
